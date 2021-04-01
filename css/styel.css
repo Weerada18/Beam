@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:wheat;
+}
+.box    {
+    width: 350px;
+    padding: 30px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,40%);
+    background: salmon;
+    text-align: center;
+}
+.box h1 {
+    color: white;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: white;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"] :hover{
+    background: white;
+}
+.box .register-password  {
+    font-size: 16px;
+    padding: 5%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.clarfix {
+    clear: both; 
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.menubar {
+    display:flex;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+}
+.menubar .logo{
+    float: left;
+}
+.menubar h1 {
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+}
+.menubar ul.menu {
+    padding-left: 850px;
+    display: flex;
+    list-style: none;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 0px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    margin-left: 60px;
+    color:black;
+    margin: 20px;
+    font-size: 20px;
+}
+.menubar ul.menu li a :hover {
+   border-bottom: 2px solid rgb(250, 0, 96);
+   padding-bottom: 0;
+}
+.landing-page{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: url(../img/minimal1.jpg) ;
+}
+
+.landing-text{
+    top: 340px;
+    right: 450px;
+    position: absolute;
+    color: white;
+}
+
+.landing-text .text-header{
+    font-size: 40px;
+}
+.landing-text .text-description{
+    width: 600px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.info1-page {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+.info1-text {
+    top: 620px;
+    left: 450px;
+    position: absolute;
+    color:black;
+}
+.info1-text .text-h1 {
+    width: 600px;
+    margin-left: 175px;
+    font-size: 120px;
+}
+.info1-text .text-p {
+    width: 600px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.info2-page {
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/minimal.jpg);
+}
+.info2-text {
+    top:1250px;
+    left: 400px;
+    position: absolute;
+    color:rgb(143, 114, 87);
+}
+.info2-text .text-h2 {
+    width: 300px;
+    margin-left: 120px;
+    font-size: 50px;
+}
+.info2-text .text-p {
+    font-size: 30px;
+}
